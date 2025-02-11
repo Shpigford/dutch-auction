@@ -4,6 +4,8 @@ A Next.js-based Dutch auction platform originally built to sell [Optic](https://
 
 NOTE: This was originally thrown together very quickly for one specific purpose (selling Optic), so there's some cleanup to be done to repurpose it for your own use.
 
+![Example Auction](https://github.com/user-attachments/assets/bac66077-f48a-4765-a981-af17b45daf4f)
+
 ## Features
 
 - 🏷️ **Dutch Auction System**
