@@ -2,7 +2,7 @@
 
 A Next.js-based Dutch auction platform originally built to sell [Optic](https://withoptic.com), a competitive monitoring and analysis platform. This project implements a fully automated Dutch auction system where the price decreases continuously over time until someone makes a purchase.
 
-[![AGPLv3 License](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+NOTE: This was originally thrown together very quickly for one specific purpose (selling Optic), so there's some cleanup to be done to repurpose it for your own use.
 
 ## Features
 
@@ -37,7 +37,7 @@ A Next.js-based Dutch auction platform originally built to sell [Optic](https://
 
 ## Tech Stack
 
-- **Frontend**: Next.js 14, React, TypeScript, Tailwind CSS, Framer Motion
+- **Frontend**: Next.js 15, React, TypeScript, Tailwind CSS, Framer Motion
 - **Backend**: Next.js API Routes, Supabase
 - **Database**: PostgreSQL (via Supabase)
 - **Email**: Postmark
@@ -54,28 +54,15 @@ A Next.js-based Dutch auction platform originally built to sell [Optic](https://
 
 ## Environment Variables
 
-Create a `.env.local` file with the following variables:
-
-```env
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
-POSTMARK_API_KEY=your_postmark_api_key
-NEXT_PUBLIC_STRIPE_PUBLIC_KEY=your_stripe_public_key
-STRIPE_SECRET_KEY=your_stripe_secret_key
-NEXT_PUBLIC_START_DATE=2024-03-10T00:00:00Z
-NEXT_PUBLIC_STARTING_PRICE=2500000
-NEXT_PUBLIC_FINAL_PRICE=100
-CRON_SECRET=your_cron_secret
-```
+Create a `.env.local` file using the `.env.example` file as a template.
 
 ## Getting Started
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/optic-sale.git
-cd optic-sale
+git clone https://github.com/Shpigford/dutch-auction.git
+cd dutch-auction
 ```
 
 2. Install dependencies:
