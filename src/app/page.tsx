@@ -488,22 +488,11 @@ export default function Home() {
           <div className="rounded-lg bg-background/70 border border-border p-6 prose prose-sm max-w-none w-full mt-8">
             <h3 className="text-xl font-semibold mb-4">About This Auction</h3>
             <p className="text-muted-foreground">
-              This is a Dutch auction for a fully functioning web app called <a href="https://withoptic.com" target="_blank" rel="noopener noreferrer">Optic</a>. Optic is a competitive monitoring and analysis platform that tracks your competitors&apos; pricing, offerings, and messaging around the clock, then instantly surfaces actionable insights via AI-powered chat.
+              This is a Dutch auction for a fully functioning web app called <a href="https://example.com" target="_blank" rel="noopener noreferrer">SquirrelGPT</a>. SquirrelGPT is a chatbot that uses GPT-4 to answer questions about squirrels.
             </p>
             <p className="text-muted-foreground">
               This is a Dutch auction. The price started at $25,000 and will continually decrease over 7 days until it reaches $1. Once purchased, the auction ends and the website is transferred to the buyer.
             </p>
-            <p className="text-muted-foreground">
-              You&apos;re definitely not buying a product that&apos;s already profitable. Currently, Optic has two paying customers totaling $118/month. We haven&apos;t done any marketing yet - what you&apos;re getting is a fully-built technical foundation that&apos;s ready for you to launch and grow into a successful business.
-            </p>
-          </div>
-          
-          <div className="mt-4 p-6 bg-yellow-50 rounded-lg border border-yellow-200" style={{
-            background: "repeating-linear-gradient(0deg, #fefce8, #fefce8 23px, #fef9c3 24px)"
-          }}>
-              <p className="text-gray-700 leading-7" style={{ lineHeight: '24px' }}>
-                This whole dutch auction thing is a bit of an experiment. It's possible nobody is interested or it only sells for $1. But regardless, I'm committed to the experiment because it's fun to try weird things. That being said, I have absolutely zero intention of taking advantage of anyone. I want you to be happy with your purchase and if for some reason we can't make this work, no harm done.
-              </p>
           </div>
         </motion.div>
 
@@ -556,8 +545,8 @@ export default function Home() {
               <div className="md:col-span-2 space-y-4">
                 <div className="flex flex-col md:flex-row items-start gap-6">
                   <Image
-                    src="/josh.jpg"
-                    alt="Josh Pigford"
+                    src="/dwight.jpg"
+                    alt="Dwight Schrute"
                     width={120}
                     height={120}
                     className="rounded-lg w-24 md:w-[120px] mx-auto md:mx-0"
@@ -565,50 +554,34 @@ export default function Home() {
                   />
                   <div className="space-y-4 w-full">
                     <p className="text-muted-foreground mb-4 text-center md:text-left">
-                      Created by <a href="https://joshpigford.com/projects" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Josh Pigford</a>, a serial entrepreneur who has created 70+ products over the past 20 years.
+                      Created by Dwight Schrute, a serial entrepreneur who has created 70+ products for squirrels over the past 20 years.
                     </p>
                     <div className="flex flex-wrap justify-center md:justify-start gap-4">
                       <a 
-                        href="https://x.com/Shpigford" 
+                        href="https://x.com/DwightSchrute" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-all px-4 py-2 rounded-lg bg-gray-50 hover:bg-primary/10 border border-gray-100"
                       >
                         <Twitter className="w-5 h-5" />
-                        <span className="font-medium">@Shpigford</span>
+                        <span className="font-medium">@DwightSchrute</span>
                       </a>
                       <a 
-                        href="mailto:josh@joshpigford.com"
+                        href="mailto:you@example.com"
                         className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-all px-4 py-2 rounded-lg bg-gray-50 hover:bg-primary/10 border border-gray-100"
                       >
                         <Mail className="w-5 h-5" />
                         <span className="font-medium">Email</span>
                       </a>
                       <a 
-                        href="tel:2052358875"
+                        href="tel:5555555555"
                         className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-all px-4 py-2 rounded-lg bg-gray-50 hover:bg-primary/10 border border-gray-100"
                       >
                         <Phone className="w-5 h-5" />
-                        <span className="font-medium">Text +1 (205) 235-8875</span>
+                        <span className="font-medium">Text +1 (555) 555-5555</span>
                       </a>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Demo Video */}
-            <div className="space-y-4">
-              <h3 className="text-xl font-semibold">Demo Video</h3>
-              <div className="rounded-lg overflow-hidden w-full">
-                <div style={{ position: "relative", paddingTop: "62.28373702422145%" }}>
-                  <iframe 
-                    src="https://customer-9munimwol5ontc4s.cloudflarestream.com/c4c9cfab876ee5a10ec8f934499ab175/iframe?poster=https%3A%2F%2Fcustomer-9munimwol5ontc4s.cloudflarestream.com%2Fc4c9cfab876ee5a10ec8f934499ab175%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600" 
-                    loading="lazy" 
-                    style={{ border: "none", position: "absolute", top: 0, left: 0, height: "100%", width: "100%" }}
-                    allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
-                    allowFullScreen={true}
-                  />
                 </div>
               </div>
             </div>
@@ -620,8 +593,8 @@ export default function Home() {
                 <ul className="space-y-2 text-muted-foreground">
                   <li className="flex items-center gap-2 flex-wrap">
                     <span className="font-medium">Domain:</span>
-                    <a href="http://withoptic.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
-                      withoptic.com
+                    <a href="http://example.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+                      example.com
                     </a>
                   </li>
                   <li className="flex items-center gap-2 flex-wrap">
@@ -638,7 +611,7 @@ export default function Home() {
               <div className="space-y-4 min-w-0">
                 <h3 className="text-xl font-semibold">Current Numbers</h3>
                 <p className="text-muted-foreground">
-                  You&apos;re definitely not buying a product that&apos;s already profitable. Currently, Optic has two paying customers totaling $118/month. We haven&apos;t done any marketing yet - what you&apos;re getting is a fully-built technical foundation that&apos;s ready for you to launch and grow into a successful business.
+                  You&apos;re definitely not buying a product that&apos;s already profitable. Currently, SquirrelGPT has two paying customers totaling $118/month. We haven&apos;t done any marketing yet - what you&apos;re getting is a fully-built technical foundation that&apos;s ready for you to launch and grow into a successful business.
                 </p>
               </div>
             </div>
@@ -699,8 +672,8 @@ export default function Home() {
               <div className="space-y-4 min-w-0">
                 <h3 className="text-xl font-semibold">Included Assets</h3>
                 <ul className="space-y-2 text-muted-foreground list-disc pl-5">
-                  <li>Domain: withoptic.com</li>
-                  <li>X account: @withoptic</li>
+                  <li>Domain: example.com</li>
+                  <li>X account: @example</li>
                   <li>Codebase</li>
                   <li>Database</li>
                 </ul>
