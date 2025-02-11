@@ -1,0 +1,6 @@
+{
+  "crons": [{
+    "path": "/api/check-price-notifications",
+    "schedule": "*/5 * * * *"
+  }]
+} 

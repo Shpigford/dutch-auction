@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="200.56" height="190.3"><svg id="SvgjsSvg1007" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200.56 190.3">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #003fef;
+      }
+    </style>
+  </defs>
+  <g id="SvgjsG1006" data-name="Layer 1">
+    <path class="cls-1" d="M24.88,33.9C70.12,22.91,115.35,11.92,160.59.93c20.36-4.95,39.97,10.47,39.97,31.42v125.61c0,17.86-14.48,32.34-32.34,32.34H32.34C14.45,190.3-.03,175.79,0,157.9c.06-30.88.12-61.76.17-92.64.03-14.9,10.23-27.85,24.7-31.36Z"></path>
+  </g>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>
