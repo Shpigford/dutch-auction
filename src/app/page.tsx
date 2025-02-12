@@ -244,21 +244,6 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <motion.div
-            whileHover={{ scale: 1.05 }}
-            transition={{ type: "spring", stiffness: 300 }}
-          >
-            <Link href="https://withoptic.com" target="_blank" rel="noopener noreferrer">
-              <Image
-                src="/optic-logo.svg"
-                alt="Optic Logo"
-                width={120}
-                height={40}
-                className="mb-6 sm:mb-8"
-                priority
-              />
-            </Link>
-          </motion.div>
           <motion.h1 
             className="text-5xl sm:text-7xl font-bold text-center tracking-tight mb-2"
             initial={{ opacity: 0, y: 20 }}
